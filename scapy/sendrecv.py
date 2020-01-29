@@ -388,7 +388,7 @@ def sendpfast(x, pps=None, mbps=None, realtime=None, loop=0, file_cache=False, i
     """Send packets at layer 2 using tcpreplay for performance
 
     :param pps:  packets per second
-    :param mpbs: MBits per second
+    :param mbps: MBits per second
     :param realtime: use packet's timestamp, bending time with real-time value
     :param loop: number of times to process the packet list
     :param file_cache: cache packets in RAM instead of reading from
